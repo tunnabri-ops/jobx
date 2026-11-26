@@ -123,7 +123,7 @@ class Email {
         ),
         attachments: [
           {
-            filename: `${data.config.profile.name}-${data.apply.attachment_type}.psf`,
+            filename: `${data.config.profile.name}-${data.apply.attachment_type}.pdf`,
             path: `jobx.${data.apply.attachment_type?.toLowerCase() || 'cv'}.pdf`,
             contentType: 'application/pdf',
           },

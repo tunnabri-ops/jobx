@@ -198,7 +198,7 @@ const test = async (testFiles: (keyof typeof Efile)[]) => {
 
   if (
     !validatePdfFile(AditionalFile.resume) ||
-    !validatePdfFile(AditionalFile.resume)
+    !validatePdfFile(AditionalFile.cv)
   ) {
     err = true;
   }
